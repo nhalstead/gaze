@@ -1,0 +1,35 @@
+main: com.encoloniel.gaze.Gaze_alpha
+name: Gaze
+version: Pre-Alpha 0.3
+author: Steelon
+description: Free for all testing, debuging GaZinG minecraft Bukkit Plugin (Alpha 0.01)
+
+commands:
+  help:
+    usage: /help
+    description: Customizable /help command
+  heal:
+    usage: /heal <player>
+    description: player.setHealth(20)
+  feed:
+    usage: /feed <player>
+    description: player.setFoodLevel(20)
+  gms:
+    usage: /gms <player>
+    aliases: [gm0, su, sum, m0]
+    decription: Set's a curtain player to Survival Mode
+  gmc:
+    usage: /gmc <player>
+    aliases: [gm1, c, cm, m1]
+    description: Set's a curtain player to Creative Mode
+  gma:
+    usage: /gma <player>
+    aliases: [gm2, a, am, m2]
+    description: Set's a curtain player to Adventure Mode
+  gmsp:
+    usage: /gmsp <player>
+    aliases: [gm3, sp, sm, m3]
+    description: Set's a curtain player to Spectator Mode
+  fakejoin:
+    usage: /fakejoin
+    description: Does a tellraw join that is fake
